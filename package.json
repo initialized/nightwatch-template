@@ -4,9 +4,9 @@
   "description": "Basic template for nightwatch test suite",
   "homepage": "https://github.com/initialized/nightwatch-template",
   "dependencies": {
+    "nightwatch": "^0.9.12"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/initialized/nightwatch-template"
