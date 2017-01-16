@@ -1,0 +1,16 @@
+{
+  "name": "nightwatch-template",
+  "version": "0.0.1",
+  "description": "Basic template for nightwatch test suite",
+  "homepage": "https://github.com/initialized/nightwatch-template",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/initialized/nightwatch-template"
+  },
+  "author": "Vincent Chu",
+  "license": "MIT"
+}
