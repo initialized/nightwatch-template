@@ -13,7 +13,7 @@ export default {
 
   // Best practice: Break up your test into small, bite-sized pieces. This helps
   // narrow down what's broken when your tests fail.
-  'Open google.com' (browser) => {
+  'Open google.com': (browser) => {
     browser
       .url('https://google.com')
       .waitForElementPresent('input[name=q]', 5000) // Generally it's advisable to use `waitForElementPresent`
@@ -35,6 +35,7 @@ export default {
 
     browser
       .setValue('input[name=q]', 'fourier transforms')
+      .keys([browser.Keys.ENTER])
       .useXpath() // Just don't forget to tell the browser that you're using XPath (vs. CSS)!
       .waitForElementPresent(expectedElement, 5000)
 
